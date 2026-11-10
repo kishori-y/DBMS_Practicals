@@ -21,3 +21,11 @@
 ); */
 
 -- select * FROM users3;
+-- select id, email FROM users3;
+-- RENAME TABLE users3 to users;
+-- SELECT * FROM users;
+-- ALTER TABLE users ADD COLUMN is_active BOOLEAN DEFAULT true;
+-- SELECT * FROM users;
+-- ALTER TABLE users DROP COLUMN is_active;
+-- SELECT * FROM users;
+
