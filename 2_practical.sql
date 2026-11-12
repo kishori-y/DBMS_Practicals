@@ -1,1 +1,6 @@
-use startersql;
+-- use startersql;
+-- SELECT * FROM users;
+
+-- ALTER TABLE users MODIFY COLUMN id VARCHAR(100) FIRST;
+
+ALTER TABLE users MODIFY COLUMN email VARCHAR(100) AFTER name;
