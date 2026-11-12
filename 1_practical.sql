@@ -34,3 +34,9 @@
 -- ALTER TABLE users DROP COLUMN is_active;
 -- SELECT * FROM users;
 
+-- ALTER TABLE users MODIFY COLUMN name VARCHAR(150);
+
+ ALTER TABLE users MODIFY COLUMN name VARCHAR(150);
+
+
+
