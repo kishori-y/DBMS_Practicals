@@ -5,6 +5,8 @@
 
 -- ALTER TABLE users MODIFY COLUMN email VARCHAR(100) AFTER name;
 
-INSERT INTO users VALUES ('1','Alice','alice@example.com','Female','1995-05-14',DEFAULT);
+-- INSERT INTO users VALUES ('1','Alice','alice@example.com','Female','1995-05-14',DEFAULT);
+
+INSERT INTO users (id,name,email,gender,date_of_birth) VALUES (2,'bob','bob@example.com','male','1990-11-23');
 
 
