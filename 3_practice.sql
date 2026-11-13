@@ -26,5 +26,13 @@ MODIFY id INT NOT NULL AUTO_INCREMENT;*/
 
 -- SELECT * FROM users WHERE gender <> 'Female';
 
-SELECT * FROM users WHERE date_of_birth is NOT NULL;
+-- SELECT * FROM users WHERE date_of_birth is NOT NULL;
+
+-- SELECT * FROM users WHERE name LIKE 'a%';
+
+-- SELECT * FROM users WHERE name LIKE '%a';
+
+SELECT * FROM users WHERE name LIKE '%a%';
+
+SELECT * FROM users WHERE name LIKE 'e%';
 
