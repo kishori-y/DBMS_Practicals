@@ -14,4 +14,8 @@ MODIFY id INT NOT NULL AUTO_INCREMENT;*/
 ('David_2','david_@example.com','male','200-01-09'),
 ('Eva_2','eva_@example.com','Female','1993-03-21');*/
 
-SELECT * FROM users;
+-- SELECT * FROM users;
+
+-- SELECT name,gender FROM users;
+
+ SELECT gender,name FROM users;
