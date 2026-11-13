@@ -32,7 +32,15 @@ MODIFY id INT NOT NULL AUTO_INCREMENT;*/
 
 -- SELECT * FROM users WHERE name LIKE '%a';
 
-SELECT * FROM users WHERE name LIKE '%a%';
+-- SELECT * FROM users WHERE name LIKE '%a%';
 
-SELECT * FROM users WHERE name LIKE 'e%';
+-- SELECT * FROM users WHERE name LIKE 'e%';
+
+-- SELECT * FROM users LIMIT 3;
+
+-- SELECT * FROM users LIMIT 3,2;
+
+-- SELECT * FROM users LIMIT 9 OFFSET 4;
+
+ 
 
