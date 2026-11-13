@@ -18,4 +18,13 @@ MODIFY id INT NOT NULL AUTO_INCREMENT;*/
 
 -- SELECT name,gender FROM users;
 
- SELECT gender,name FROM users;
+-- SELECT gender,name FROM users;
+
+-- SELECT * FROM users WHERE gender = 'Female';
+
+-- SELECT * FROM users WHERE gender != 'Female';
+
+-- SELECT * FROM users WHERE gender <> 'Female';
+
+SELECT * FROM users WHERE date_of_birth is NOT NULL;
+
