@@ -1,5 +1,5 @@
 -- CREATE DATABASE IF NOT EXISTS startersql_2;
-USE startersql_2;
+-- USE startersql_2;
 /*
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -38,12 +38,21 @@ INSERT INTO users (name, email, gender, date_of_birth, salary) VALUES
 ('Lata', 'lata@example.com', 'Female', '1984-11-11', 78000.00),
 ('Yash', 'yash@example.com', 'Male', '1997-06-06', 64000.00),
 ('Fatima', 'fatima@example.com', 'Female', '1993-03-03', 55000.00);
-
+ 
 */
 
+-- SELECT * FROM users WHERE salary > 60000
+-- ORDER BY created_at DESC LIMIT 5;
 
-DROP TABLE IF EXISTS addresses;
+-- drop TABLE addresses;
 
+-- SELECT * FROM users ORDER BY name DESC;
+
+-- SELECT * FROM users ORDER BY created_at DESC;
+
+-- SELECT * FROM users ORDER BY date_of_birth ASC;
+
+/*
 CREATE TABLE addresses (
 id INT AUTO_INCREMENT PRIMARY KEY,
 user_id INT,
@@ -76,5 +85,5 @@ VALUES
 (18, '11 North Usman Road', 'Chennai', 'Tamil Nadu', '600017'),
 (19, '33 Residency Road', 'Bengaluru', 'Karnataka', '560025'),
 (20, '22 Hazratganj', 'Lucknow', 'Uttar Pradesh', '226001');
-
+*/
 
